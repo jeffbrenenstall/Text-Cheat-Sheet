@@ -42,10 +42,49 @@ have different widths.)
             </td>
       </tr>
     </tbody>
-  </table> 
-</body>
-</html>
-
+    </table>
+    <h2>Size of Type</h2>
+    <table>
+      <thead>
+        <tr>
+      <th>Pixles</th>
+      <th>Percentages</th>
+      <th>Ems</th>
+    </tr>  
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <span class="size">Pixels are commonly used
+because they allow web
+designers very precise control
+over how much space their text
+takes up. The number of pixels is
+followed by the letters px.</span>
+        </td>
+        <td>
+          <span class="size1">The default size of text in
+browsers is 16px. So a size of
+75% would be the equivalent of
+12px, and 200% would be 32px.
+If you create a rule to make all
+text inside the <body> element
+to be 75% of the default size (to
+make it 12px), and then specify
+another rule that indicates the
+content of an element inside the
+&ltbody&gt element should be 75%
+size, it will be 9px (75% of the
+12px font size)..
+        </span>
+          </td>
+          <td>
+            <span class="size2">An em is equivalent to the width
+of a letter m.
+          </span>
+            </td>
+      </tr>
+    </tbody>
 <!-- CSS BELOW-->
 
 h1 {
@@ -78,7 +117,7 @@ tr {
 }
 
 thead {
-    background-color: plum;
+    background-color: aqua;
 }
 
 table {
@@ -99,5 +138,17 @@ table {
 
 .code2 {
   font-family: monospace;
+  background-color: beige;
+}
+
+.size {
+  background-color: beige;
+}
+
+.size1 {
+  background-color: beige;
+}
+
+.size2 {
   background-color: beige;
 }
