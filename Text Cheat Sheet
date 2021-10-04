@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
+<body>
+    <h1>Text Cheat Sheet</h1>
+    <h2>Size and Typeface of Text</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Serif</th>
+      <th>San-Serif</th>
+      <th>Monospace</th>
+    </tr>  
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <span class="code">Serif fonts have extra details on
+the ends of the main strokes of
+the letters. These details are
+known as serifs.</span>
+        </td>
+        <td>
+          <span class="code1">Sans-serif fonts have straight
+ends to letters, and therefore
+have a much cleaner design.
+        </span>
+          </td>
+          <td>
+            <span class="code2">Every letter in a monospace (or
+fixed-width) font is the same
+width. (Non-monospace fonts
+have different widths.)
+          </span>
+            </td>
+      </tr>
+    </tbody>
+  </table> 
+</body>
+</html>
+
+<!-- CSS BELOW-->
+
+h1 {
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+thead {
+    background-color: plum;
+}
+
+table {
+    border: 2px solid darkorchid;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.code {
+    font-family: serif;
+    background-color: beige;
+}
+
+.code1 {
+  font-family: sans-serif;
+  background-color: beige;
+}
+
+.code2 {
+  font-family: monospace;
+  background-color: beige;
+}
